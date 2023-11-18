@@ -1,3 +1,4 @@
+import com.wtomaszewski.study.patterns.FactoryMethodPatternExample;
 import com.wtomaszewski.study.patterns.IPatternExample;
 import com.wtomaszewski.study.patterns.VisitorPatternExample;
 
@@ -8,9 +9,10 @@ public class Main {
 
     public static void main(String[] args) {
         List<IPatternExample> implementedDesignPatterns = Arrays.asList(
-             new VisitorPatternExample()
+             new VisitorPatternExample(),
+             new FactoryMethodPatternExample()
         );
 
-        implementedDesignPatterns.stream().forEach(IPatternExample::implementPatternExample);
+        implementedDesignPatterns.forEach(IPatternExample::implementPatternExample);
     }
 }
