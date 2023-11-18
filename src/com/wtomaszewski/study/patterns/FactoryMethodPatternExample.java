@@ -31,7 +31,7 @@ public class FactoryMethodPatternExample implements IPatternExample{
             }
         });
 
-        System.out.printf("Prepared %s burgers", preparedBurgers.size());
+        System.out.printf("Prepared %s burgers\n", preparedBurgers.size());
 
         //  Database Drivers:
         //
