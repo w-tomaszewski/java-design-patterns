@@ -4,3 +4,4 @@ Project to gather the knowledge of Java design patterns with custom implementati
 ## implemented patterns:
 - visitor
 - factory-method
+- decorator
